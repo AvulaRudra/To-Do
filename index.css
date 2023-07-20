@@ -1,0 +1,93 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .task-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .task-input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .date-input {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .add-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .tasks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .task-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .task-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .task-item .task-text {
+      flex: 1;
+      font-size: 16px;
+    }
+
+    .task-item .edit-button,
+    .task-item .checkbox {
+      padding: 5px 10px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .pending-tasks {
+      margin-bottom: 30px;
+    }
+
+    .completed-tasks {
+      margin-bottom: 30px;
+    }
+
+    .overdue-tasks {
+      margin-bottom: 30px;
+    }
